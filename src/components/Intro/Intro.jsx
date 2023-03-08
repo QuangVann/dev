@@ -8,7 +8,7 @@ import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
+import Facebook from "../../img/Facebook.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -39,8 +39,8 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
+          <a href="https://github.com/QuangVann"><img src={Github} alt="" /></a>
+         <a href="https://www.facebook.com/vanquang.ngo.3517?mibextid=LQQJ4d"> <img src={Facebook} alt="" /></a>
           <img src={Instagram} alt="" />
         </div>
       </div>
